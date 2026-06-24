@@ -34,6 +34,7 @@ form {
     background-color: #FFFFFF;
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 fieldset {
@@ -55,7 +56,8 @@ label {
 }
 
 p {
-    margin-bottom: 8px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 input, select, textarea {
@@ -82,3 +84,30 @@ input[type="color"] {
     padding: 0 5px;
 }
 
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+    color: #FFFFFF;
+}
+
+button[type="reset"]:hover {
+    background-color: orangered;
+    color: #FFFFFF;
+}
