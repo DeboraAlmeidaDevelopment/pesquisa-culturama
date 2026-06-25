@@ -118,7 +118,7 @@ button[type="reset"]:hover {
     margin-bottom: 20px;
 }
 
-section.msg-sucesso {
+main.msg-sucesso {
     text-align: center;
     vertical-align: middle;
     margin-top: 25%;
