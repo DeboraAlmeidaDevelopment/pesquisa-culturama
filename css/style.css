@@ -111,3 +111,16 @@ button[type="reset"]:hover {
     background-color: orangered;
     color: #FFFFFF;
 }
+
+.material-symbols-outlined {
+    color: green;
+    font-size: 200px;
+    margin-bottom: 20px;
+}
+
+section.msg-sucesso {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 25%;
+    padding: 15px;
+}
